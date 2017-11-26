@@ -1,4 +1,16 @@
-h1 {
-  font-family: helvetica;
-  font-weight: 200;
+.section {
+  min-height: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro-text {
+  font-size: larger;
+}
+
+.intro-image {
+  width: 100px;
+  height: 100px;
 }
