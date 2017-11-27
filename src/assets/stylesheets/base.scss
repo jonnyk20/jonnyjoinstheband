@@ -15,10 +15,18 @@
 .intro-text {
   font-size: larger;
 }
-
+.intro {
+  background-color: black;
+}
 .intro-image {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
+
+}
+
+.intro-image img {
+  object-fit: cover;
+  height: 150px;
 }
 
 .section-2, .section-4 {
@@ -31,6 +39,12 @@
   // border: solid 1px #bbbbbb;
 }
 
+.tall {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .article-image img, .project-image img{
   object-fit: cover;
   width: 300px;
@@ -45,4 +59,16 @@
 a, a:hover {
   color: #212529;
   text-decoration: none;
+}
+
+.video {
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+}
+.video img {
+  object-fit: cover;
+  height: 125px;
+  width: 125px;
 }
