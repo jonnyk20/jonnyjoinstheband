@@ -1,9 +1,15 @@
+// body {
+//   font-family: 'Proxima Nova', Georgia, sans-serif;
+// }
+
 .section {
   min-height: 400px;
   padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .intro-text {
@@ -13,4 +19,30 @@
 .intro-image {
   width: 100px;
   height: 100px;
+}
+
+.section-2, .section-4 {
+  background-color: black;
+  color: white;
+}
+
+.article {
+  // border-radius: 10px;
+  // border: solid 1px #bbbbbb;
+}
+
+.article-image img, .project-image img{
+  object-fit: cover;
+  width: 300px;
+  height: 200px;
+}
+
+.article-description, .project-description {
+  margin-top: 15px;
+  margin-bottom: 10px
+}
+
+a, a:hover {
+  color: #212529;
+  text-decoration: none;
 }
