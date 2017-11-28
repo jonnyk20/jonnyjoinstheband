@@ -27,7 +27,7 @@ function App({ name }) {
                     I would love to join the band as a Web Development Intern.
                     </span>
                   </div>
-                  <div className='col-md-3 d-flex justify-content-end align-items-center p-0'>
+                  <div className='col-md-3 d-flex justify-content-center align-items-center p-0'>
                     <div className='intro-image'>
                       <img 
                         alt='me in an ice cave'
@@ -194,9 +194,9 @@ function App({ name }) {
                     allowfullscreen 
                     frameborder="0" 
                     gesture="media" 
-                    height="225"
+                    height="183"
                     src="https://www.youtube.com/embed/prayNyuN3w0?rel=0"
-                    width="400"
+                    width="325"
                   />
                 </div>
               </div>
@@ -208,25 +208,35 @@ function App({ name }) {
             </div>            
             <div className='row'>
               <div className='col-md-4'>
-                <div className='border video mx-auto'>
-                  <img 
-                    alt='loading'
-                    src='https://image.flaticon.com/icons/png/512/31/31117.png' 
+                <div className='video-fr mx-auto'>
+                  <iframe
+                    allow="encrypted-media"
+                    allowfullscreen
+                    frameborder="0"
+                    gesture="media"
+                    height="183"
+                    src="https://www.youtube.com/embed/gLTBX-hpAFo?rel=0"
+                    width="325"
                   />
                 </div>
                 <h3 className='text-white m-3'> French </h3>
               </div>
               <div className='col-md-4'>
-                <div className='border video mx-auto'>
-                  <img 
-                    alt='loading'
-                    src='https://image.flaticon.com/icons/png/512/31/31117.png' 
+                <div className='video-sp mx-auto'>
+                  <iframe
+                    allow="encrypted-media"
+                    allowfullscreen
+                    frameborder="0"
+                    gesture="media"
+                    height="183"
+                    src="https://www.youtube.com/embed/PfL_v6A4fsI?rel=0"
+                    width="325"
                   />
                 </div>
                 <h3 className='text-white m-3'> Spanish </h3>
               </div>
               <div className='col-md-4'>
-                <div className='border video mx-auto'>
+                <div className='video mx-auto'>
                   <img 
                     alt='loading'
                     src='https://image.flaticon.com/icons/png/512/31/31117.png' 
@@ -245,36 +255,40 @@ function App({ name }) {
             <h3 className='text-success'> I would love to keep doing more, </h3>
             <h6> so if you feel like I belong, then let’s work together! </h6>
             <div className='social-buttons mb-2'>
-              <a href='https://www.jonnykalambay.com'>
-                <button className='btn btn-success mx-2'>
-                  <i className='fa fa-globe' />
-                </button>
-              </a>
-              <a href='https://github.com/jonnyk20'>
-                <button className='btn btn-success mx-2'>
-                  <i className='fa fa-github' />
-                </button>
-              </a>
-              <a href='https://www.linkedin.com/in/jonnykalambay'>  
-                <button className='btn btn-success mx-2'>
-                  <i className='fa fa-linkedin' />
-                </button>
-              </a>
-              <a href='https://codepen.io/jonnnyk20'>
-                <button className='btn btn-success mx-2'>
-                  <i className='fa fa-codepen' />
-                </button>
-              </a>
-              <a href='https://medium.com/@jonnyk20'>
-                <button className='btn btn-success mx-2'>
-                  <i className='fa fa-medium' />
-                </button>
-              </a>
-              <a href='https://www.youtube.com/channel/UCUm0chMKj4MA7q9CWZXWhiA'>
-                <button className='btn btn-success mx-2'>
-                  <i className='fa fa-youtube' />
-                </button>
-              </a>
+              <div className='button-group'>
+                <a href='https://www.jonnykalambay.com'>
+                  <button className='btn btn-success mx-2'>
+                    <i className='fa fa-globe' />
+                  </button>
+                </a>
+                <a href='https://github.com/jonnyk20'>
+                  <button className='btn btn-success mx-2'>
+                    <i className='fa fa-github' />
+                  </button>
+                </a>
+                <a href='https://www.linkedin.com/in/jonnykalambay'>  
+                  <button className='btn btn-success mx-2'>
+                    <i className='fa fa-linkedin' />
+                  </button>
+                </a>
+              </div>
+              <div className='button-group'>
+                <a href='https://codepen.io/jonnnyk20'>
+                  <button className='btn btn-success mx-2'>
+                    <i className='fa fa-codepen' />
+                  </button>
+                </a>
+                <a href='https://medium.com/@jonnyk20'>
+                  <button className='btn btn-success mx-2'>
+                    <i className='fa fa-medium' />
+                  </button>
+                </a>
+                <a href='https://www.youtube.com/channel/UCUm0chMKj4MA7q9CWZXWhiA'>
+                  <button className='btn btn-success mx-2'>
+                    <i className='fa fa-youtube' />
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
