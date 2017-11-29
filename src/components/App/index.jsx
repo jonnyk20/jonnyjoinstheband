@@ -57,7 +57,7 @@ function App({ name }) {
           <div className='section section-2'>
             <div className='row'>
               <div className='col-md-12 py-5 header text-white tall'>
-                <h3>I coded for the band,</h3>
+                <h2>I coded for the band,</h2>
               </div>
             </div>
             <div className='row p-2'>
@@ -125,7 +125,7 @@ function App({ name }) {
           <div className='section section-3'>
             <div className='row'>
               <div className='col-md-12 py-5 header tall'>
-                <h3>I wrote for the band,</h3>
+                <h2>I wrote for the band,</h2>
               </div>
             </div>
             <div className='row px-2'>
@@ -184,7 +184,7 @@ function App({ name }) {
           <div className='section section-4'>
             <div className='row'>
               <div className='col-md-12 text-white my-3 py-3 tall'>
-                <h3>and I spoke for the band...</h3>
+                <h2>and I spoke for the band...</h2>
               </div>
             </div>
             <div className='row'>
@@ -203,7 +203,7 @@ function App({ name }) {
             </div>
             <div className='row'>
               <div className='col-md-12 my-3 py-3 tall'>
-                <h3>...in several languages</h3>
+                <h2>...in several languages</h2>
               </div>
             </div>            
             <div className='row'>
@@ -219,7 +219,7 @@ function App({ name }) {
                     width="325"
                   />
                 </div>
-                <h3 className='text-white m-3'> French </h3>
+                <h2 className='text-white m-3'> French </h2>
               </div>
               <div className='col-md-4'>
                 <div className='video mx-auto'>
@@ -233,7 +233,7 @@ function App({ name }) {
                     width="325"
                   />
                 </div>
-                <h3 className='text-white m-3'> Spanish </h3>
+                <h2 className='text-white m-3'> Spanish </h2>
               </div>
               <div className='col-md-4'>
                 <div className='video mx-auto'>
@@ -247,7 +247,7 @@ function App({ name }) {
                     width="325"
                   />
                 </div>
-                <h3 className='text-white m-3'> Japanese </h3>
+                <h2 className='text-white m-3'> Japanese </h2>
               </div>
             </div>
           </div>
@@ -257,7 +257,7 @@ function App({ name }) {
       <div className='row'>
         <div className='col-md-12'>
           <div className='section section-5 border'>
-            <h3 className='text-success'> I would love to keep doing more, </h3>
+            <h2 className='text-success'> I would love to keep doing more, </h2>
             <h6> so if you feel like I belong, then let’s work together! </h6>
             <div className='social-buttons mb-2'>
               <div className='button-group'>
