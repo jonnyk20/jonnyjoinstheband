@@ -23,11 +23,11 @@ function App({ name }) {
                 <div className='row'>
                   <div className='col-md-9 d-flex flex-column justify-content-center intro mt-2'>
                     <span className='lead pr-2'>
-                    I’m Jonny, a web developer and designer with a passion for cultures an languages. 
-                    I would love to join the band as a Web Development Intern.
+                      I’m Jonny, a web developer and designer with a passion for cultures an languages. 
+                      I would love to join the band as a Web Development Intern.
                     </span>
                   </div>
-                  <div className='col-md-3 d-flex justify-content-center align-items-center p-0 mt-2'>
+                  <div className='col-md-auto d-flex justify-content-center align-items-center p-0 mt-2'>
                     <div className='intro-image'>
                       <img 
                         alt='me in an ice cave'
@@ -160,12 +160,12 @@ function App({ name }) {
                 </a>
               </div>
               <div className='col-md-4'>
-                <a href='#'>
+                <a href='https://medium.com/@jonnyk20/anatomy-of-a-chrome-extension-54b9dd019825'>
                   <div className='article'>
                     <div className='article-image'>
                       <img 
                         alt='article'
-                        src='https://image.flaticon.com/icons/png/512/31/31117.png' 
+                        src='https://cdn-images-1.medium.com/max/800/1*iN_06LvPNET14TAWlZGq6A.png' 
                       />
                     </div>
                     <div className='article-description lead text-muted'>
@@ -208,7 +208,7 @@ function App({ name }) {
             </div>            
             <div className='row'>
               <div className='col-md-4'>
-                <div className='video-fr mx-auto'>
+                <div className='video mx-auto'>
                   <iframe
                     allow="encrypted-media"
                     allowfullscreen
@@ -222,7 +222,7 @@ function App({ name }) {
                 <h3 className='text-white m-3'> French </h3>
               </div>
               <div className='col-md-4'>
-                <div className='video-sp mx-auto'>
+                <div className='video mx-auto'>
                   <iframe
                     allow="encrypted-media"
                     allowfullscreen
@@ -236,7 +236,7 @@ function App({ name }) {
                 <h3 className='text-white m-3'> Spanish </h3>
               </div>
               <div className='col-md-4'>
-                <div className='video-jp mx-auto'>
+                <div className='video mx-auto'>
                   <iframe
                     allow="encrypted-media"
                     allowfullscreen
