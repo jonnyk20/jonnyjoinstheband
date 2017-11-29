@@ -19,15 +19,15 @@ function App({ name }) {
               </div>
             </div>
             <div className='row'>
-              <div className='col-md-6 border mx-auto intro text-white'>
+              <div className='col-md-6 mx-auto text-white'>
                 <div className='row'>
-                  <div className='col-md-9 d-flex flex-column justify-content-center '>
+                  <div className='col-md-9 d-flex flex-column justify-content-center intro mt-2'>
                     <span className='lead pr-2'>
                     I’m Jonny, a web developer and designer with a passion for cultures an languages. 
                     I would love to join the band as a Web Development Intern.
                     </span>
                   </div>
-                  <div className='col-md-3 d-flex justify-content-center align-items-center p-0'>
+                  <div className='col-md-3 d-flex justify-content-center align-items-center p-0 mt-2'>
                     <div className='intro-image'>
                       <img 
                         alt='me in an ice cave'
@@ -54,7 +54,7 @@ function App({ name }) {
       {/********* Section 2 ********/}
       <div className='row'>
         <div className='col-md-12'>
-          <div className='section section-2 border'>
+          <div className='section section-2'>
             <div className='row'>
               <div className='col-md-12 py-5 header text-white tall'>
                 <h3>I coded for the band,</h3>
@@ -122,7 +122,7 @@ function App({ name }) {
       {/********* Section 3 ********/}
       <div className='row'>
         <div className='col-md-12'>
-          <div className='section section-3 border'>
+          <div className='section section-3'>
             <div className='row'>
               <div className='col-md-12 py-5 header tall'>
                 <h3>I wrote for the band,</h3>
@@ -181,7 +181,7 @@ function App({ name }) {
       {/********* Section 4 ********/}
       <div className='row'>
         <div className='col-md-12'>
-          <div className='section section-4 border'>
+          <div className='section section-4'>
             <div className='row'>
               <div className='col-md-12 text-white my-3 py-3 tall'>
                 <h3>and I spoke for the band...</h3>
@@ -236,10 +236,15 @@ function App({ name }) {
                 <h3 className='text-white m-3'> Spanish </h3>
               </div>
               <div className='col-md-4'>
-                <div className='video mx-auto'>
-                  <img 
-                    alt='loading'
-                    src='https://image.flaticon.com/icons/png/512/31/31117.png' 
+                <div className='video-jp mx-auto'>
+                  <iframe
+                    allow="encrypted-media"
+                    allowfullscreen
+                    frameborder="0"
+                    gesture="media"
+                    height="183"
+                    src="https://www.youtube.com/embed/euciTJIdhvc?rel=0"
+                    width="325"
                   />
                 </div>
                 <h3 className='text-white m-3'> Japanese </h3>
